@@ -2,7 +2,13 @@ version: STSv1
 mode: enforce
 mx: mail.protonmail.ch
 mx: mailsec.protonmail.ch
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
 mx: aspmx.l.google.com
-mx: *.smtp.goog
-mx: *.aspmx.l.google.com
+mx: alt1.aspmx.l.google.com
+mx: alt2.aspmx.l.google.com
+mx: alt3.aspmx.l.google.com
+mx: alt4.aspmx.l.google.com
 max_age: 86400
